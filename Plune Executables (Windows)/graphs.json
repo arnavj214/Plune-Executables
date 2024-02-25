@@ -1,0 +1,108 @@
+{
+  "figures": [
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "engine_rpm",
+        "filtered_engine_rpm",
+        "target_rpm",
+        "secondary_rpm",
+        "filtered_secondary_rpm"
+      ],
+      "title": "Engine, Secondary, Target RPM"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "norm_engine_rpm",
+        "norm_secondary_rpm",
+        "norm_actuator_position_inches"
+      ],
+      "title": "Normalized Engine/Secondary RPM, Actuator Position"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "actuator_position_inches",
+        "norm_inbound_estop",
+        "norm_outbound_estop"
+      ],
+      "title": "Actuator Position (inches)"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "norm_velocity_command",
+        "norm_velocity_estimate",
+        "norm_inbound_estop",
+        "norm_outbound_estop"
+      ],
+      "title": "Normalized Actuator Velocity, Estops"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "velocity_estimate",
+        "velocity_command"
+      ],
+      "title": "Actuator Velocities"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "norm_velocity_command",
+        "norm_velocity_estimate",
+        "norm_shadow_count"
+      ],
+      "title": "Normalzied Actuator Velocity, Shadow Count"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "voltage",
+        "iq_measured"
+      ],
+      "title": "Voltage, Current"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "simulated_velocity_command_p",
+        "simulated_velocity_command_d",
+        "simulated_velocity_command",
+        "velocity_command"
+      ],
+      "title": "Simulated Controller"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "wheel_mph"
+      ],
+      "title": "Vehicle Speed"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "norm_brake_light_signal",
+        "norm_filtered_brake_light_signal",
+        "norm_brake_pressed"
+      ],
+      "title": "Brake Light Signal"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "control_cycle_execution_time_us"
+      ],
+      "title": "Cycle Execution Time (us)"
+    },
+    {
+      "x_axis": "control_cycle_start_s",
+      "y_axis": [
+        "shift_ratio"
+      ],
+      "title": "Shift Ratio"
+    }
+  ]
+}
